@@ -48,10 +48,16 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
             href="https://www.powerlanguage.co.uk/wordle/"
             className="underline font-bold"
           >
-            play the original here
+            play the original here. 
           </a>
         </Trans>
       </p>
+      <p className="text-sm text-gray-500"></p>
+      <p className="text-sm text-gray-500">
+        <Trans>
+          All correct answers will be in dictionary form, but you may guess verbs in different forms, so long as they are exactly 7 characters long.
+        </Trans>
+        </p>
     </BaseModal>
   )
 }
