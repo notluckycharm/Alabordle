@@ -1,7 +1,7 @@
 {
     "name": "alabama-language-word-guessing-game",
     "version": "0.1.0",
-    "homepage": "https://notluckycharm.github.io/Alabama-Word-Guessing-Game",
+    "homepage": "https://notluckycharm.github.io/Alabordle",
     "private": true,
     "dependencies": {
         "@bcgov/bc-sans": "^1.0.1",
