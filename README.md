@@ -2,19 +2,14 @@
 
 ## Changes in this fork
 
-I've adapted this code to allow for simply adapting it to another language. The wordlist and orthography (writing system) here are for the Gitksan language, but this repository is meant to be adapted to other languages. I've also added a script for publishing on GitHub Pages.
+This fork has been adapted to work for the Alabama language. Some modifications necessary to explain the game to elders who may be unfamiliar with the original wordle have also been included.
 
 _Summary of changes_
 
-- Allow letters in the "orthography.ts" to be digraphs or multigraphs (letters that are more than one character)
-- Allow more or less atempts than 6
-- Allow the length of words to be more or less than 5
-- Added a configuration file to define language-specific metadata
-- Added functionality for free deployment to GitHub Pages
-- Dynamically render the keyboard based on the defined orthography
-- Use Unicode normalization by default
-- Use BC Sans open source font to better render Indigenous language orthographies in BC, Canada. See the blog to change the font
-- Complete localization/translateability of the interface using react-i18next
+- Allow five attempts only (due to small orthography)
+- Modified guess length
+- Arranged Keyboard
+- Created word lists
 
 _To adapt for your language (the basics):_
 
