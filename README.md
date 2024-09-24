@@ -17,7 +17,7 @@ _To adapt for your language (the basics):_
 2. Change the file in `src/constants/wordlist.ts` to use your language's words.
 3. Change the file in `src/constants/validGuesses.ts` to include all valid guesses for your language.
 4. Change the file in `src/constants/config.ts` to include meta data about your language. If your language needs words longer or shorter than 5, you can set that in this file and also set the number of tries.
-5. Publish on GitHub Pages by changing the `homepage` key in `package.json` and running `npm run deploy` or just committing to the main branch (and a GitHub workflow will take care of the rest).
+5. Publish on GitHub Pages by changing the `homepage` key in `package.json` and building `npm run build` and running `npm run deploy` or just committing to the main branch (and a GitHub workflow will take care of the rest).
 
 For more information, including how to localize the interface to your language, visit the blog article: https://blog.mothertongues.org/word-guessing-game/.
 
